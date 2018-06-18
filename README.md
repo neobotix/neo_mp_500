@@ -4,7 +4,7 @@ This package contains configuration and launch files for Neobotix MP-500.
 
 ![Neobotix MP-500](http://www.neobotix-roboter.de/fileadmin/files/produkte/Basisplattformen/MP-500/Roboter-MP-500-Hauptansicht.jpg) 
 
-The [MP-500](http://www.neobotix-robots.com/mecanum-robot-mp-500.html) is an omnidirectional robot with Mecanum wheels for all kinds of service robotics and research
+The [MP-500](http://www.neobotix-robots.com/mecanum-robot-mp-500.html) is a small and robust robot for research and industries.
 
 # Contact information
 
