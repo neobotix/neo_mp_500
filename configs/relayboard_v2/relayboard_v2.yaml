@@ -73,9 +73,9 @@ log: false
 drive2:
   motor_active: true
   homing_active: false
-  EncIncrPerRevMot: 4096
+  EncIncrPerRevMot: 10000
   VelMeasFrqHz: 1
-  GearRatio: 8
+  GearRatio: 12
   BeltRatio: 1
   Sign: 1.0
   VelMaxEncIncrS: 300000
@@ -88,9 +88,9 @@ drive2:
 drive3:
   motor_active: true
   homing_active: false
-  EncIncrPerRevMot: 4096
+  EncIncrPerRevMot: 10000
   VelMeasFrqHz: 1
-  GearRatio: 8
+  GearRatio: 12
   BeltRatio: 1
   Sign: 1.0
   VelMaxEncIncrS: 300000

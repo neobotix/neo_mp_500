@@ -173,7 +173,7 @@
 	<!--+++++++++++++++++++laserscanner_front_joint++++++++++++++++++++++++--> 
 	<joint name="laserscanner_front_joint" type="fixed">
 		  <axis xyz="0 1 0" />
-		  <origin xyz="0.230 0 0.110" rpy="3.14 0 0" />
+		  <origin xyz="0.244 0 0.141" rpy="3.14 0 0" />
 		  <parent link="base_link"/>
 		  <child link="laserscanner_front_link"/>
 	</joint>
