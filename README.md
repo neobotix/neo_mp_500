@@ -4,7 +4,7 @@ This package contains configuration and launch files for Neobotix MP-500.
 
 ![Neobotix MP-500](http://www.neobotix-roboter.de/fileadmin/files/produkte/Basisplattformen/MP-500/Roboter-MP-500-Hauptansicht.jpg) 
 
-The [MP-500](http://www.neobotix-robots.com/mecanum-robot-mp-500.html) is a small and robust robot for research and industries.
+The [MP-500](http://www.neobotix-robots.com/mobile-robot-mp-500.html) is a small and robust robot for research and industries.
 
 # Contact information
 
@@ -30,7 +30,7 @@ If you have any questions, just get in touch with us:
 
 Hardware connection: ![neo_relayboard_v2](https://github.com/neobotix/neo_relayboard_v2)
 
-Kinematic: ![neo_mecanum_kinematics](https://github.com/neobotix/neo_kinematics_mecanum)
+Kinematic: ![neo_kinematics_differential](https://github.com/neobotix/neo_kinematics_differential)
 
 Laserscanner: ![cob_sick_s300](https://github.com/neobotix/neo_driver)
 
@@ -68,11 +68,11 @@ AMCL: [amcl](http://wiki.ros.org/amcl)
 
 ### ROSlaunch files:
 
-Bringup: ![bringup.launch](https://github.com/neobotix/neo_mpo_500/blob/indigo/launch/mpo_500/bringup.launch)
+Bringup: ![bringup.launch](https://github.com/neobotix/neo_mpo_500/blob/master/launch/mpo_500/bringup.launch)
 
-Navigation with SLAM: ![navigation_basic_slam.launch](https://github.com/neobotix/neo_mpo_500/blob/indigo/launch/mpo_500/navigation_basic_slam.launch)
+Navigation with SLAM: ![navigation_basic_slam.launch](https://github.com/neobotix/neo_mpo_500/blob/master/launch/mpo_500/navigation_basic_slam.launch)
 
-Navigation with AMCL: ![navigation_basic_amcl.launch](https://github.com/neobotix/neo_mpo_500/blob/indigo/launch/mpo_500/navigation_basic_amcl.launch)
+Navigation with AMCL: ![navigation_basic_amcl.launch](https://github.com/neobotix/neo_mpo_500/blob/master/launch/mpo_500/navigation_basic_amcl.launch)
 
 
 ### Configuration:
