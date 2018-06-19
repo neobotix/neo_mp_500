@@ -68,11 +68,11 @@ AMCL: [amcl](http://wiki.ros.org/amcl)
 
 ### ROSlaunch files:
 
-Bringup: ![bringup.launch](https://github.com/neobotix/neo_mpo_500/blob/master/launch/mpo_500/bringup.launch)
+Bringup: ![bringup.launch](https://github.com/neobotix/neo_mp_500/blob/master/launch/bringup.launch)
 
-Navigation with SLAM: ![navigation_basic_slam.launch](https://github.com/neobotix/neo_mpo_500/blob/master/launch/mpo_500/navigation_basic_slam.launch)
+Navigation with SLAM: ![navigation_basic_slam.launch](https://github.com/neobotix/neo_mp_500/blob/master/launch/navigation_basic_slam.launch)
 
-Navigation with AMCL: ![navigation_basic_amcl.launch](https://github.com/neobotix/neo_mpo_500/blob/master/launch/mpo_500/navigation_basic_amcl.launch)
+Navigation with AMCL: ![navigation_basic_amcl.launch](https://github.com/neobotix/neo_mp_500/blob/master/launch/navigation_basic_amcl.launch)
 
 
 ### Configuration:
