@@ -2,7 +2,7 @@
 
 This package contains configuration and launch files for Neobotix MP-500.
 
-![Neobotix MP-500](http://www.neobotix-roboter.de/fileadmin/files/produkte/Basisplattformen/MP-500/Roboter-MP-500-Hauptansicht.jpg) 
+![Neobotix MP-500](http://www.neobotix-roboter.de/fileadmin/_processed_/6/d/csm_MP-500-Main_02_35ae91db85.jpg) 
 
 The [MP-500](http://www.neobotix-robots.com/mobile-robot-mp-500.html) is a small and robust robot for research and industries.
 
