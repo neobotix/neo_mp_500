@@ -55,7 +55,7 @@
         <!--origin xyz="0.0 0.0 0.234" rpy="0 0 1.57" /--><!-- for cylinder -->
 		<origin xyz="0.0 0.0 0.0" rpy="0 0 1.57" /><!-- for STL -->
         <geometry>
-            <mesh filename="package://neo_mp_500/robot_model/mp_500/meshes/MP-500-BODY.STL" scale="0.001 0.001 0.001"/>
+            <mesh filename="package://neo_mp_500/robot_model/mp_500/meshes/MP-500-BODY.STL" scale="1 1 1"/>
 	    	<!--cylinder length="0.381" radius="0.2545"/-->
 	    	<!--box size="0.445 0.277 0.17"/-->
         </geometry>
