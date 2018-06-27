@@ -53,9 +53,9 @@
 	  </inertial>
       <visual name='body'>
         <!--origin xyz="0.0 0.0 0.234" rpy="0 0 1.57" /--><!-- for cylinder -->
-		<origin xyz="0.0 0.0 0.0" rpy="0 0 1.57" /><!-- for STL -->
+		<origin xyz="0.0 0.0 0.08" rpy="0 0 1.57" /><!-- for STL -->
         <geometry>
-            <mesh filename="package://neo_mp_500/robot_model/mp_500/meshes/MP-500-BODY.STL" scale="1 1 1"/>
+            <mesh filename="package://neo_mp_500/robot_model/mp_500/meshes/MP-500-BODY.STL" scale="0.01 0.01 0.01"/>
 	    	<!--cylinder length="0.381" radius="0.2545"/-->
 	    	<!--box size="0.445 0.277 0.17"/-->
         </geometry>
@@ -64,8 +64,8 @@
       <collision name='body_collision'>
         <origin xyz="0.0 0.0 0.234" rpy="0 0 0" />
         <geometry>
-          <!--box size="0.445 0.277 0.17"/-->
-          <cylinder length="0.381" radius="0.2545"/>
+          <box size="0.830 0.600 0.400"/>
+          <!--cylinder length="0.381" radius="0.2545"/-->
         </geometry>
       </collision>
 <!--+++++++++++++++++++castor_front++++++++++++++++++++++++--> 
@@ -107,14 +107,13 @@
       <inertia ixx="0.0051" ixy="0" ixz="0" iyy="0.0051" iyz="0" izz="0.009" />
     </inertial>
 
-    <visual>
+    <!--visual>
      	<origin xyz="0.0 0.0 -0.016" rpy="0 0 0" />
      	<geometry>
-        	<!--mesh filename="package://neo_robot_descriptions/mp_400/meshes/MP-400-WHEEL.STL" scale="0.001 0.001 0.001"/-->
 			<cylinder radius="0.075" length="0.03"/>
      	</geometry>
      	<material name="Neobotix/Black" />
-    </visual>
+    </visual-->
 
     <collision>
      	<origin xyz="0.0 0.0 -0.016" rpy="0 0 0" />
@@ -142,14 +141,13 @@
 		  <inertia ixx="0.0051" ixy="0" ixz="0" iyy="0.0051" iyz="0" izz="0.009" />
 		</inertial>
 
-		<visual>
+		<!--visual>
 		 	<origin xyz="0 0.0 0.016" rpy="0 0 0" />
 		 	<geometry>
-		    	<!--mesh filename="package://neo_robot_descriptions/mp_400/meshes/MP-400-WHEEL.STL" scale="0.001 0.001 0.001"/-->
 				<cylinder radius="0.075" length="0.03"/>
 		 	</geometry>
 		 	<material name="Neobotix/Black" />
-		</visual>
+		</visual-->
 
 		<collision>
 		 	<origin xyz="0.0 0.0 0.016" rpy="0 0 0" />
@@ -182,11 +180,11 @@
 	<link name="laserscanner_front_link" type="laser">
 		<inertial>
 			<mass value="0.001" />
-			<origin xyz="0 0 0" rpy="0 0 0" />
+			<origin xyz="0 0 0.0" rpy="0 0 0" />
 			<inertia ixx="0.0001" ixy="0" ixz="0" iyy="0.000001" iyz="0" izz="0.0001" />
 	  	</inertial>
 	  	<visual>
-			<origin xyz="0 0 0" rpy="0 0 -1.57" />
+			<origin xyz="0 0 -0.04" rpy="0 0 -1.57" />
 			<geometry>
 		  		<mesh filename="package://neo_mp_500/robot_model/mp_500/meshes/SICK-S300.STL" />
 			</geometry>
