@@ -14,10 +14,10 @@
                 <!--sensors-->
 
                 <!--single s300 at the front-->
-                <include file="$(find neo_mp_500)/configs/sick/s300/sick_s300.launch"/>
+                <include file="$(find neo_mp_500)/configs/lidar/sick/s300/sick_s300.launch"/>
 
                 <!--s300 at the front and back-->
-                <!--include file="$(find neo_mp_500)/configs/sick/microscan3/sick_microscan3.launch"/-->
+                <!--include file="$(find neo_mp_500)/configs/lidar/sick/microscan3/sick_microscan3.launch"/-->
 
                 <!--laser scan unifier-->
                 <!--only if two or more laserscanner are available on your robot-->

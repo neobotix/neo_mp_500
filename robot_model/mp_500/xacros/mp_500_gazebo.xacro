@@ -12,8 +12,8 @@
     <self_collide>false</self_collide>
   </gazebo>
 
-  <gazebo reference="laser_1_link">
-      <sensor type="ray" name="laserscanner_1_link">
+  <gazebo reference="lidar_1_link">
+      <sensor type="ray" name="lidar_1_link">
           <pose>0 0 0 0 0 0</pose>
           <visualize>true</visualize>
           <update_rate>40</update_rate>
@@ -41,7 +41,7 @@
               <stddev>0.01</stddev>
             </noise>
           </ray>
-          <plugin name="laserscanner_1_link" filename="libgazebo_ros_laser.so">
+          <plugin name="lidar_1_link" filename="libgazebo_ros_laser.so">
             <topicName>sick/scan</topicName>
             <frameName>laserscanner_1_link</frameName>
           </plugin>
