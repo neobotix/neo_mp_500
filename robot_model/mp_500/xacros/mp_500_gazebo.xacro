@@ -12,7 +12,7 @@
     <self_collide>false</self_collide>
   </gazebo>
 
-  <gazebo reference="laserscanner_1_link">
+  <gazebo reference="laser_1_link">
       <sensor type="ray" name="laserscanner_1_link">
           <pose>0 0 0 0 0 0</pose>
           <visualize>true</visualize>
