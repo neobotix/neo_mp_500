@@ -63,7 +63,12 @@ Visualization Manager:
           Show Axes: false
           Show Trail: false
           Value: true
-        laserscanner_front_link:
+        caster_wheel_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        laserscanner_1_link:
           Alpha: 1
           Show Axes: false
           Show Trail: false
@@ -93,8 +98,8 @@ Visualization Manager:
       Axis: Z
       Channel Name: intensity
       Class: rviz/LaserScan
-      Color: 255; 255; 255
-      Color Transformer: Intensity
+      Color: 38; 255; 23
+      Color Transformer: FlatColor
       Decay Time: 0
       Enabled: true
       Invert Rainbow: false
@@ -107,7 +112,7 @@ Visualization Manager:
       Queue Size: 10
       Selectable: true
       Size (Pixels): 3
-      Size (m): 0.0500000007
+      Size (m): 0.0199999996
       Style: Flat Squares
       Topic: /sick_s300_front/scan_filtered
       Unreliable: false
@@ -156,7 +161,7 @@ Visualization Manager:
       Color: 85; 170; 0
       Color Transformer: FlatColor
       Decay Time: 0
-      Enabled: true
+      Enabled: false
       Invert Rainbow: false
       Max Color: 255; 255; 255
       Max Intensity: 8192
@@ -173,7 +178,7 @@ Visualization Manager:
       Unreliable: false
       Use Fixed Frame: true
       Use rainbow: true
-      Value: true
+      Value: false
     - Alpha: 0.699999988
       Class: rviz/Map
       Color Scheme: map
@@ -279,7 +284,7 @@ Visualization Manager:
   Global Options:
     Background Color: 48; 48; 48
     Default Light: true
-    Fixed Frame: map
+    Fixed Frame: odom
     Frame Rate: 30
   Name: root
   Tools:
@@ -300,25 +305,25 @@ Visualization Manager:
   Views:
     Current:
       Class: rviz/Orbit
-      Distance: 13.2492752
+      Distance: 10.7851295
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.0599999987
         Stereo Focal Distance: 1
         Swap Stereo Eyes: false
         Value: false
       Focal Point:
-        X: 0.427354991
-        Y: -0.182315007
-        Z: 0.118538
+        X: 2.10049272
+        Y: -1.38159978
+        Z: 0.817799568
       Focal Shape Fixed Size: true
       Focal Shape Size: 0.0500000007
       Invert Z Axis: false
       Name: Current View
       Near Clip Distance: 0.00999999978
-      Pitch: 1.00979662
+      Pitch: 1.46979642
       Target Frame: <Fixed Frame>
       Value: Orbit (rviz)
-      Yaw: 5.20724773
+      Yaw: 2.98908019
     Saved: ~
 Window Geometry:
   Displays:
