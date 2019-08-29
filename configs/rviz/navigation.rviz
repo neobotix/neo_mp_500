@@ -68,7 +68,7 @@ Visualization Manager:
           Show Axes: false
           Show Trail: false
           Value: true
-        laserscanner_1_link:
+        lidar_1_link:
           Alpha: 1
           Show Axes: false
           Show Trail: false
@@ -114,7 +114,7 @@ Visualization Manager:
       Size (Pixels): 3
       Size (m): 0.0199999996
       Style: Flat Squares
-      Topic: /sick_s300_front/scan_filtered
+      Topic: /lidar_1/scan_filtered
       Unreliable: false
       Use Fixed Frame: true
       Use rainbow: true
@@ -284,7 +284,7 @@ Visualization Manager:
   Global Options:
     Background Color: 48; 48; 48
     Default Light: true
-    Fixed Frame: odom
+    Fixed Frame: map
     Frame Rate: 30
   Name: root
   Tools:
@@ -305,25 +305,25 @@ Visualization Manager:
   Views:
     Current:
       Class: rviz/Orbit
-      Distance: 10.7851295
+      Distance: 15.2314234
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.0599999987
         Stereo Focal Distance: 1
         Swap Stereo Eyes: false
         Value: false
       Focal Point:
-        X: 2.10049272
-        Y: -1.38159978
-        Z: 0.817799568
+        X: 4.25124741
+        Y: -2.4559617
+        Z: 4.59880066
       Focal Shape Fixed Size: true
       Focal Shape Size: 0.0500000007
       Invert Z Axis: false
       Name: Current View
       Near Clip Distance: 0.00999999978
-      Pitch: 1.46979642
+      Pitch: 1.40479648
       Target Frame: <Fixed Frame>
       Value: Orbit (rviz)
-      Yaw: 2.98908019
+      Yaw: 3.73920035
     Saved: ~
 Window Geometry:
   Displays:
