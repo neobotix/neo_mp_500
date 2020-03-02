@@ -34,7 +34,7 @@ NeoLocalPlanner:
   goal_tune_time : 0.5
 
   # How far to predict control pose into the future based on latest odometry [s]
-  lookahead_time : 0.3
+  lookahead_time : 0.2
 
   # How far to look ahead when computing path orientation [m]
   lookahead_dist : 0.5
