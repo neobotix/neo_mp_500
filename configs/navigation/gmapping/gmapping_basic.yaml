@@ -22,7 +22,7 @@
   astep : 0.05
   #The optimization step in rotation 
 
-  iterations : 2
+  iterations : 5
   #The number of iterations of the scanmatcher 
 
   lsigma : 0.075
@@ -76,7 +76,7 @@
   ymax : 20.0
   #Initial map size 
 
-  delta : 0.02
+  delta : 0.03
   #Resolution of the map.
 
   llsamplerange : 0.02
