@@ -10,7 +10,7 @@
   maxUrange : 10
   # The maximum usable range of the laser. A beam is cropped to this value. 
 
-  sigma : 0.03
+  sigma : 0.05
   #The sigma used by the greedy endpoint matching 
 
   kernelSize : 1
@@ -67,7 +67,7 @@
   xmin : -20.0
   #Initial map size 
 
-  ymin : 20.0
+  ymin : -20.0
   #Initial map size 
 
   xmax : 20.0
