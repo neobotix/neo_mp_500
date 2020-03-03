@@ -37,22 +37,22 @@
   minimumScore : 100.0
   #Minimum score for considering the outcome of the scan matching good. Can avoid jumping pose estimates in large open spaces when using laser scanners with limited range (e.g. 5m). Scores go up to 600' #try 50 for example when experiencing jumping estimate issues. 
 
-  srr : 0.3
+  srr : 0.25
   #Odometry error in translation as a function of translation (rho/rho) 
 
-  srt : 0.3
+  srt : 0.5
   #Odometry error in translation as a function of rotation (rho/theta) 
 
-  str : 0.3
+  str : 0.25
   #Odometry error in rotation as a function of translation (theta/rho) 
 
-  stt : 0.3
+  stt : 0.5
   #Odometry error in rotation as a function of rotation (theta/theta) 
 
-  linearUpdate : 0.02
+  linearUpdate : 0.1
   #Process a scan each time the robot translates this far 
 
-  angularUpdate : 0.02
+  angularUpdate : 0.05
   #Process a scan each time the robot rotates this far 
 
   temporalUpdate : 2.0
