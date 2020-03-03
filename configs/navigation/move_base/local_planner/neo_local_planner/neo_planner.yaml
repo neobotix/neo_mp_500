@@ -1,10 +1,10 @@
 NeoLocalPlanner:
 
   # The x acceleration limit of the robot in meters/sec^2
-  acc_lim_x : 0.25
+  acc_lim_x : 0.2
 
   # The rotational acceleration limit of the robot in radians/sec^2
-  acc_lim_theta : 0.8
+  acc_lim_theta : 0.6
 
   # The maximum x velocity for the robot in m/s.
   max_vel_x : 0.8
@@ -13,7 +13,7 @@ NeoLocalPlanner:
   min_vel_x : -0.1
 
   # The absolute value of the maximum rotational velocity for the robot in rad/s
-  max_rot_vel : 0.8
+  max_rot_vel : 0.6
 
   # The absolute value of the minimum rotational velocity for the robot in rad/s
   min_rot_vel : 0.1
@@ -73,10 +73,10 @@ NeoLocalPlanner:
   max_cost : 0.95
 
   # Max velocity based on curvature [rad/s]
-  max_curve_vel : 0.3
+  max_curve_vel : 0.2
 
   # Max distance to goal when looking for it [m]
-  max_goal_dist : 0.5
+  max_goal_dist : 0.3
 
   # Max distance allowable for backing up (zero = unlimited) [m]
   max_backup_dist : 0.1
