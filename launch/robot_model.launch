@@ -4,7 +4,7 @@
 
                 <!--robot model-->
 
-                <param name="robot_description" command="$(find xacro)/xacro.py '$(find neo_mp_500)/robot_model/mp_500/mp_500.urdf.xacro'" />
+                <param name="robot_description" command="$(find xacro)/xacro '$(find neo_mp_500)/robot_model/mp_500/mp_500.urdf.xacro'" />
                 <node name="joint_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher" >
                         <param name="use_gui" value="false" />
                 </node>
