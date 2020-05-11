@@ -3,7 +3,7 @@
 
   <xacro:macro name="fixed_wheel" params="name parent *origin">
    <joint name="${name}_joint" type="fixed">
-    <insert_block name="origin" />
+    <xacro:insert_block name="origin" />
     <axis xyz="0 1 0" />
     <joint_properties damping="1" friction="1" />
     <parent link="${parent}" />
