@@ -1,12 +1,22 @@
 footprint: [[0.50,0.50],[-0.50,0.50],[-0.50,-0.50],[0.50,-0.50]]
 
+plugins:
+  - {name: obstacles, type: "costmap_2d::ObstacleLayer"}
+  - {name: inflation_layer, type: "costmap_2d::InflationLayer"}
+  - {name: static, type: "costmap_2d::StaticLayer"}
+  
 inflation_layer:
   inflation_radius: 1
   cost_scaling_factor: 5
 
-observation_sources: lidar_1
+obstacles:
+  observation_sources: laser_1
 
-lidar_1: {sensor_frame: lidar_1_link , data_type: LaserScan, topic: lidar_1/scan_filtered, marking: true, clearing: true, obstacle_range: 5.0, raytrace_range: 8.0}
+  laser_1: {sensor_frame: lidar_1_link , data_type: LaserScan, topic: lidar_1/scan_filtered, marking: true, clearing: false, obstacle_range: 5.0, raytrace_range: 8.0}
+  footprint_clearing_enabled: false
+
+static:
+  enabled: false
 
 
 
